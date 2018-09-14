@@ -29,10 +29,10 @@ public class Test_producto {
         Producto pro=new Producto();
        
         pro.setId_categoria("1");
-        pro.setId_unimed("949466234");
-        pro.setNombre("holas@upeu.edu.pe");
-        pro.setDescripcion("94632112");
-        pro.setCodigo("94632112");
+        pro.setId_unimed("2");
+        pro.setNombre("leche");
+        pro.setDescripcion("deslactosada");
+        pro.setCodigo("0001");
        if(prodao.createProducto(pro)){
            System.out.println("insertado");
        }else{

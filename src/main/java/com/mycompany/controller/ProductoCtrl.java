@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class ProductoCtrl {
     
     private Producto selected;
-    private boolean est;
+ 
     ProductoDAO prodao;
     private ArrayList<Producto> list = new ArrayList<>();
     
